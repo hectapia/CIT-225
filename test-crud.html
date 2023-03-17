@@ -17,18 +17,30 @@
         <h1>Database Design & Develelopment</h1>
     </header>
     <main>
-        <h2>CIT 225: Final Project</h2>
+        <h2>Insert cases</h2>
       <hr>    
-        <ul>
-            <li><a href=""> Entity Relationship Design (ERD) model for a real-world application</a></li>
-            <li><a href="test-crud.html"> Test cases for all CRUD 
-              (Create, Read, Update, and Delete) operations <span> <em style="color: red;">(In progress)</em> </span></a></li>
-            <li><a href=""> Index maps for User Interface (UI)</a></li>
-            <li><a href=""> Mock-ups of User Interface (UI) forms</a></li>
-            <li><a href=""> Test case SQL script files</a></li>
-            <li><a href=""> Business purpose</a></li>
-        </ul>
-        <hr>
+      <pre><span style="font-size: 10pt; font-family: Courier;">
+        mysql> INSERT INTO contractservice.client
+            -> (client_id,tag_client,client_name)
+            -> VALUES
+            -> (1,'2023010001','Colorado Rafting LTD');
+        Query OK, 1 row affected (0.01 sec)
+
+        mysql> INSERT INTO contractservice.client
+            -> (tag_client,client_name)
+            -> VALUES
+            -> ('2023010002','Salmon Rafting LTD');
+        Query OK, 1 row affected (0.01 sec)
+
+        +-----------+------------+----------------------+
+        | client_id | tag_client | client_name          |
+        +-----------+------------+----------------------+
+        |         1 | 2023010001 | Colorado Rafting LTD |
+        |         2 | 2023010002 | Salmon Rafting LTD   |
+        +-----------+------------+----------------------+
+        2 rows in set (0.00 sec) </span></pre> 
+        
+      <hr>
     </main>
     <footer class="shadowbox">
       <div>
