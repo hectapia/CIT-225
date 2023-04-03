@@ -2,7 +2,6 @@ body {
   display: block;
   background-color: white;
   font-family: "MontserratBold",Helvetica,Arial,sans-serif;
-  
   margin: 10px auto;
   width: 400px; 
 }
@@ -33,11 +32,24 @@ text-align: center;
   align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);  
 }
+
+button {
+  border: 2px solid red;
+  cursor: pointer;
+  position: absolute;
+  background-color: yellow;
+  font-weight: bolder;
+  box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2), 0 12px 5px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+
 img {
   padding: 0px;
   width: 100px;
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  cursor: zoom-in;
 }
 
 #lastupdated {
@@ -49,7 +61,7 @@ pre {
   color: #2d3b45;
   display: block;
   padding: 9px;
-  margin: 0 0 12px;
+  margin: 0 0 6px;
   line-height: 1.2;
   word-break: break-all;
   word-wrap: break-word;
@@ -66,4 +78,30 @@ code, pre {
 
 em {
   font-size: 0.8em;
+}
+
+
+pre .erd {
+  align-items: center;
+  text-align: center;
+}
+
+.creation {
+  height: 400px;
+  overflow: auto;
+}
+
+.fixCrud {
+ background-color: white;
+ position: fixed;
+ width: 778px;
+ padding: 10px;
+ bottom: 0;
+ margin: 0px;
+ border: 1px solid #6b6d6e;
+ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5 {
+  margin: 4px;
 }

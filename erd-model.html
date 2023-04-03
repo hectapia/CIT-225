@@ -13,15 +13,20 @@
 </head>
 <body>
     <header class="shadowbox">
-        <img src="images/HectorOlivaresT.jpg" alt="picture of Hector Olivares Tapia">
+        <img title="Click to expand" src="images/HectorOlivaresT.jpg" alt="picture of Hector Olivares Tapia">
         <h1>CIT 225 Database Design & Develelopment</h1>
     </header>
     <main>
-        <h2>ERD Model</h2>
+        <h2>ERD Model <span><em><a href="index.html">back</a></em></span> </h2>
       <hr>    
-      <pre><span style="font-size: 10pt; font-family: Courier;">
-        <img src="images/ContractService_EER.png" alt="ERD Model" style="width:100%;">
-      </span></pre>   
+      <pre class="erd">
+        <span style="font-size: 10pt; font-family: Courier;"> 
+          <button onclick="resetImg()">Reset img size</button> 
+        <img src="images/ContractService_EER.png" alt="ERD Model" style="width:100%;"
+             onclick="enlargeImg()" id="img1">  
+            
+        </span>
+      </pre>   
       <hr>
     </main>
     <footer class="shadowbox">
