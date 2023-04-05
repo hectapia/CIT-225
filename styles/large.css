@@ -102,4 +102,13 @@
     background-color: #717171
   }
 
+  .joinContainer {
+    flex-direction: row;
+  }
+
+  .membership {
+    width: 50%;
+  }
+
+
 }

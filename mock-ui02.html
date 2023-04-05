@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link href="styles/large.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <main >
+        <h1>ContractService</h1>
+        <h2>CIT 225 Final Project Presentation <span><em><a href="index.html">back</a></em></span> </h2>
+        <div class="joinContainer">
+            <div class="membership">
+              
+                <h3>Your new contract is:</h3>
+                <h3>YYYYMMDD-NN</h3>
+                <br>
+
+
+                  <p>Now, we can request services for an area and selecting items for the term specified in the application
+                  </p>
+               
+           
+            </div>
+
+            <div class="membership">
+                <h3 class="CreaContract">Creating a new contract</h3>
+                <br>
+                <form id="joinForm" name="joinForm" action="#" method="get">
+
+                    <label for="charea">Choose an area:</label>
+                    <select name="charea" id="charea">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="northwest">Northwest region</option>
+                        <option value="southwest">Southwest region</option>
+                        <option value="southeast">Southeast region</option>
+                    </select>
+                        <br/><br>
+                    
+                        <label for="startDate">Start date:</label>
+                        <input type="date" id="startDate" name="startDate">
+                        <br><br>
+
+                        <label for="endDate">End date:</label>
+                        <input type="date" id="endDate" name="endDate">
+                        <br><br>
+
+                        <input class="submit" type="submit" formaction="/index.html" value="Submit"/>
+                        <br>
+                </form>
+            </div>
+        </div>   
+      </main>
+</body>
+</html>

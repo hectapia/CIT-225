@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link href="styles/large.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <main >
+        <h1>ContractService</h1>
+        <h2>CIT 225 Final Project Presentation <span><em><a href="index.html">back</a></em></span> </h2>
+        <div class="joinContainer">
+            <div class="membership">
+              
+                <h3>Welcome</h3>
+                <h3>We are ready to start a new service contract </h3>
+                <br>
+
+
+                  <p>One client requests for the contractor may enter into one or 
+                    more contracts for a specified period of time (contract time). 
+                  </p>
+               
+
+                  <p>Through the contract, the contractor will perform 
+                    services through one or more concepts.
+                </p>
+                
+                <p>The contract has an estimated value. 
+                </p>
+               
+           
+            </div>
+
+            <div class="membership">
+                <h3 class="CreaContract">Creating a new contract</h3>
+                <br>
+                <form id="joinForm" name="joinForm" action="#" method="get">
+                    <label for="chclient">Choose a client:</label>
+                    <select name="chclient" id="chclient">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="narriop">Narriop Hotels</option>
+                    <option value="kinta">Kinta Hotels</option>
+                    <option value="kinta">Kinta Hotels</option>
+                    </select>
+                    <br/>
+                    
+                    <label for="chcontractor">Choose a contractor:</label>
+                    <select name="chcontractor" id="chcontractor">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="super">Super Easy LTD</option>
+                    <option value="fast">Fast Experience LTD</option>
+                    <option value="united">United Team LTD</option>
+                    </select>
+                    <br/>
+
+                        <label for="startDate">Start date:</label>
+                        <input type="date" id="startDate" name="startDate">
+                        <br>
+
+                        <label for="endDate">End date:</label>
+                        <input type="date" id="endDate" name="endDate">
+                        <br><br>
+
+                        <input class="submit" type="submit" formaction="/mock-ui02.html" value="Submit"/>
+                        <br>
+                </form>
+            </div>
+        </div>   
+      </main>
+</body>
+</html>

@@ -10,7 +10,7 @@ img = document.getElementById("img1");
 // Function to increase image size
 function enlargeImg() {
     // Set image size to 1.5 times original
-    img.style.transform = "scale(2.3)";
+    img.style.transform = "scale(1.8)";
     // Animation effect
     img.style.transition = "transform 0.25s ease";
 }
